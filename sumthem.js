@@ -23,4 +23,6 @@ const sumThem = function(freqs) {
 }
 
 console.assert(sumThem("+1, -2, +3, +1") === 3)
+console.assert(sumThem("+1, +1, +1") === 3)
+console.assert(sumThem("-1, -2, -3") === -6)
 
