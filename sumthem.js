@@ -2,18 +2,25 @@
 
 // let freqs = "+1, -2, +3, +1";
 // let freqs = "+1, +1, +1";
-let freqs = "-1, -2, -3"
+// let freqs = "-1, -2, -3"
 
-let numbers = freqs.split(', ');
+const sumThem = function(freqs) {
 
-console.log("numbers: ", numbers);
+  let numbers = freqs.split(', ');
 
-let resulting = 0;
+  // console.log("numbers: ", numbers);
 
-for (let num of numbers) {
-  console.log("for ", num, resulting)
-  resulting = resulting + Number(num);
-  console.log("    ", num, resulting)
+  let resulting = 0;
+
+  for (let num of numbers) {
+    // console.log("for ", num, resulting)
+    resulting = resulting + Number(num);
+    // console.log("    ", num, resulting)
+  }
+
+  // console.log("Resulting frequency: ", resulting)
+  return resulting;
 }
 
-console.log("Resulting frequency: ", resulting)
+console.assert(sumThem("+1, -2, +3, +1") === 3)
+
