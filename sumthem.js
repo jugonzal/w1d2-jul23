@@ -20,9 +20,9 @@ const sumThem = function(freqs) {
 
   // console.log("Resulting frequency: ", resulting)
   return resulting;
-}
+};
 
-console.assert(sumThem("+1, -2, +3, +1") === 3)
-console.assert(sumThem("+1, +1, +1") === 3)
-console.assert(sumThem("-1, -2, -3") === -6)
+console.assert(sumThem("+1, -2, +3, +1") === 3);
+console.assert(sumThem("+1, +1, +1") === 3);
+console.assert(sumThem("-1, -2, -3") === -6);
 
