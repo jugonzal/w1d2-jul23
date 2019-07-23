@@ -15,3 +15,8 @@ This is our attempt to solve the *Day 1* challenge:
   - store sum in our global variable
 
 ## How to use it
+
+```
+cat README.md
+```
+
